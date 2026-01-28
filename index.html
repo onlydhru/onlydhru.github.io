@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Andrew A. Bullo</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="resume/BulloCV.pdf" target="_blank" download>
+        <i class="fa-solid fa-file"></i>
+        <span>CV</span>
+      </a>
+            
+      <a href="mailto:andrewbullo@email.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Andrew 👋</h2>
+        <p>I am a Computer Science student from St. Jude College, Dasmariñas City, Cavite, with a strong foundation in programming languages, frameworks, and modern development tools. I am experienced in using Docker, Git, and Visual Studio Code to build, manage, and maintain efficient software solutions.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-file"></i>
+            <span>Project</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/andrew-pic.webp" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+        <div class="text">
+          I am continuously developing my skills in web development, with a focus on creating responsive and visually appealing websites. I use HTML and CSS for structure and design, and JavaScript to enhance functionality. I enjoy learning new technologies and applying them through hands-on projects.
+        </div>
+
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/python_logo_resized_to_html.png" alt="python logo">
+          <span>Python</span>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects / Thesis -->
+<section id="projects" class="projects-section">
+  <h2>Project / Thesis</h2>
+
+  <div class="projects-grid">
+    <!-- Project 1 -->
+<div class="project-card">
+  <div class="project-info">
+    <h3>Vet Pulse Veterinary Clinic – Inventory Management System</h3>
+
+    <p><strong>Undergraduate Thesis Project | Solo Developer</strong></p>
+
+    <p>
+      <strong>Project Information:</strong><br>
+      This system was developed as my undergraduate thesis project to address real-world inventory and operational
+      challenges faced by Vet Pulse Veterinary Clinic in managing medical supplies, products, and supplier deliveries.
+    </p>
+
+    <p>
+      <strong>Problem of Clinic:</strong><br>
+      The clinic relied on manual inventory recording, resulting in stock inconsistencies, difficulty tracking
+      available products, delayed restocking, and limited visibility of supplier transactions.
+    </p>
+
+    <p>
+      <strong>Solution:</strong><br>
+      A web-based inventory management and billing system that automates stock monitoring, supplier management,
+      and delivery tracking to ensure accurate inventory levels and efficient clinic operations.
+    </p>
+
+    <p>
+      <strong>My Role:</strong><br>
+      Sole developer responsible for system analysis, database design, backend development, frontend integration,
+      and overall system implementation.
+    </p>
+
+    <p>
+      <strong>Technologies:</strong><br>
+      Django, Python/PostgreSQL, HTML, Tailwind, JavaScript, Git, Docker
+    </p>
+
+    <p>
+      <strong>Key Features:</strong><br>
+      • Product and stock inventory management<br>
+      • Supplier and delivery tracking<br>
+      • Automatic stock updates upon delivery confirmation<br>
+      • Batch and expiration date tracking<br>
+      • Purchase order management<br>
+      • Billing system for walk-in customers<br>
+      • Role-based user access
+    </p>
+
+    <p>
+      <strong>Outcome:</strong><br>
+      The system streamlined inventory operations, reduced stock management errors, improved supplier coordination,
+      and demonstrated the practical application of full-stack web development in a real veterinary clinic environment.
+    </p>
+
+  </div>
+</div>
+
+  </div>
+</section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/drdonaimage.png">
+          <p>DR. Donnabel P. Contigno</p>
+        </div>
+
+        <div class="text">
+          "Andrew developed our inventory management system efficiently and professionally. He communicated clearly, understood our needs, and delivered a system that improved our workflow."
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECTION: Achievements -->
+<section id="achievements" class="achievements-section">
+  <h2>Achievements</h2>
+
+  <div class="achievement-card">
+    <ul>
+      <li>College Dean’s Lister</li>
+      <li>Created Multiple Solo and Group Projects</li>
+      <li>Actively participated in various webinars and online training sessions related to my skills in web development and programming. Through these activities, I received certifications that strengthened my knowledge in HTML, CSS, JavaScript, Python and general software development best practices.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SECTION 4: Contact -->
+<section id="contact" class="contact-section">
+  <h2>Contact</h2>
+
+  <div class="group">
+    <div class="text contact-details">
+
+      <p>
+        <strong>Address:</strong><br>
+        Blk 18 Lot 5 Mabuhay Homes 2000, Salawag, Dasmariñas, Cavite
+      </p>
+
+      <p>
+        <strong>Phone:</strong><br>
+        <a href="tel:09263638616">0926 363 8616</a>
+      </p>
+
+      <p>
+        <strong>Email:</strong><br>
+        <a href="mailto:andrewbulloalbanez@gmail.com">andrewbulloalbanez@gmail.com</a>
+      </p>
+
+      <p>
+         <strong>CV:</strong><br>
+        <a href="resume/BulloCV.pdf" target="_blank" download class="cv-link">
+          <i class="fa-solid fa-file"></i> Download CV
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+  </main>
+</body>
+</html>
